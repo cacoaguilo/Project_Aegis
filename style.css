@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #0a0a0a;
+    color: #00ff41;
+    text-shadow: 0 0 5px #00ff41, 0 0 10px #00ff41;
+}
+.game-container {
+    background: rgba(0, 20, 0, 0.8);
+    border: 1px solid #00ff41;
+    box-shadow: 0 0 15px #00ff41 inset;
+}
+.title-font {
+    font-family: 'Orbitron', sans-serif;
+}
+.metric-bar-bg {
+    background-color: rgba(0, 255, 65, 0.1);
+    border: 1px solid rgba(0, 255, 65, 0.3);
+}
+.metric-bar-fg {
+    background-color: #00ff41;
+    box-shadow: 0 0 8px #00ff41;
+    transition: width 0.5s ease-out, background-color 0.5s ease;
+}
+.choice-button {
+    background: transparent;
+    border: 1px solid #00ff41;
+    transition: all 0.3s ease;
+    text-shadow: none;
+}
+.choice-button:hover {
+    background: rgba(0, 255, 65, 0.2);
+    box-shadow: 0 0 10px #00ff41;
+}
+.choice-button:disabled {
+    border-color: rgba(0, 255, 65, 0.3);
+    color: rgba(0, 255, 65, 0.3);
+    cursor: not-allowed;
+}
+.narration-box, .event-box {
+    border: 1px solid rgba(0, 255, 65, 0.5);
+    background: rgba(0, 10, 0, 0.5);
+}
+.crt-scanline::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
+}
+@keyframes flicker {
+    0% { opacity: 0.2; }
+    20% { opacity: 0.8; }
+    40% { opacity: 0.3; }
+    60% { opacity: 0.9; }
+    80% { opacity: 0.2; }
+    100% { opacity: 0.8; }
+}
+#ending-modal {
+    background: rgba(0,0,0,0.9);
+}

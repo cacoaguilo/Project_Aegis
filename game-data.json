@@ -1,0 +1,136 @@
+{
+    "metrics": {
+        "innovation": { "name": "Innovation Rate", "value": 50, "icon": "🚀" },
+        "stability": { "name": "Geopolitical Stability", "value": 50, "icon": "🌍" },
+        "safety": { "name": "Public Trust & Safety", "value": 50, "icon": "🛡️" },
+        "equality": { "name": "Economic Equality", "value": 50, "icon": "⚖️" }
+    },
+    "currentPhase": 0,
+    "phases": [
+        {
+            "phase": 1,
+            "title": "PHASE 1: 2025-2028 - The Awakening",
+            "narration": "The year is 2025. Artificial Intelligence is advancing at an exponential rate. The world watches with a mix of awe and apprehension. In response to growing fears of unchecked AI development, the Global AI Governance Council has been formed, and you have been appointed its first Director. Your first challenge awaits.",
+            "dilemma": {
+                "title": "Policy Dilemma: The Open-Weight Proliferation Act",
+                "description": "Powerful open-source AI models are proliferating. Proponents claim they foster innovation, while security experts warn of catastrophic risks. What standard will the Council set?",
+                "choices": [
+                    {
+                        "text": "Innovation First - Mandate Openness",
+                        "pros": "Fosters innovation and offers 'infinite flexibility' for startups by leveraging open-source libraries.",
+                        "cons": "Creates 'severe proliferation risks' as models become 'irreversibly accessible to hostile actors,' potentially enabling AI-assisted bioweapons or cyberattacks.",
+                        "impact": { "innovation": 25, "safety": -20, "stability": -10, "equality": 5 }
+                    },
+                    {
+                        "text": "Safety First - Restrict Powerful Models",
+                        "pros": "Mitigates risks by preventing misuse by terrorists and implementing safeguards on dual-use capabilities, like a 'Red Line on Open-Weight Al Virologists'.",
+                        "cons": "Stifles innovation, slows beneficial research, and could cede AI leadership to nations that don't comply.",
+                        "impact": { "innovation": -15, "safety": 20, "stability": 5, "equality": 0 }
+                    }
+                ]
+            },
+            "wildcardEvents": [
+                {
+                    "title": "Wildcard Event: Energy Crisis Looms!",
+                    "description": "The immense power requirements for AI data centers are causing an energy shortage. The projected 92 GW need is hitting home, threatening global blackouts.",
+                    "choices": [
+                        { "text": "Subsidize Fossil Fuels for Quick Power", "impact": { "innovation": 10, "safety": -10, "stability": -5, "equality": 0 } },
+                        { "text": "Launch Global Nuclear 'Moonshot'", "impact": { "innovation": 5, "safety": 5, "stability": 5, "equality": -15 } }
+                    ]
+                },
+                {
+                    "title": "Wildcard Event: AI Discovers New Material!",
+                    "description": "An AI, leveraging its ability to accelerate science, has discovered a revolutionary new material for carbon capture, offering a potential solution to climate change.",
+                    "choices": [
+                        { "text": "Fast-Track Deployment", "impact": { "innovation": 15, "safety": 10, "stability": 5, "equality": 5 } },
+                        { "text": "Mandate Lengthy Safety Trials", "impact": { "innovation": -5, "safety": 15, "stability": 0, "equality": 0 } }
+                    ]
+                }
+            ]
+        },
+        {
+            "phase": 2,
+            "title": "PHASE 2: 2029-2032 - The Acceleration",
+            "narration": "The consequences of your first decisions are echoing across the globe. AI's capabilities are accelerating, and society is struggling to adapt. A new set of challenges demands your attention.",
+            "dilemma": {
+                "title": "Policy Dilemma: The Automation Economy Mandate",
+                "description": "AI is automating white-collar jobs faster than predicted. Social unrest is growing, but productivity is soaring. How does the Council address this massive economic shift?",
+                "choices": [
+                    {
+                        "text": "Implement UBI & AI Tax",
+                        "pros": "Shares the benefits of automation via a targeted 'value-added tax on Al services, complemented by rebates,' providing a crucial safety net.",
+                        "cons": "High implementation costs could stifle economic dynamism and slow down further AI investment.",
+                        "impact": { "innovation": -10, "safety": 10, "stability": -5, "equality": 25 }
+                    },
+                    {
+                        "text": "Focus on Retraining & Augmented Labor",
+                        "pros": "Leads to 'higher paying jobs' where humans operate the advanced AI tools, boosting overall productivity and profits.",
+                        "cons": "Retraining may be 'inadequate' if AI's capabilities outpace the workforce's ability to reskill, leaving many unemployed.",
+                        "impact": { "innovation": 15, "safety": -10, "stability": 5, "equality": -20 }
+                    }
+                ]
+            },
+            "wildcardEvents": [
+                {
+                    "title": "Wildcard Event: Geopolitical Flashpoint!",
+                    "description": "A rival nation accuses another of using AI for espionage, threatening a 'MAIM' (Mutual Assured AI Malfunction) scenario. Geopolitical stability is plummeting.",
+                    "choices": [
+                        { "text": "Host Emergency Summit", "impact": { "innovation": 0, "safety": 5, "stability": 15, "equality": 0 } },
+                        { "text": "Impose Sanctions", "impact": { "innovation": -10, "safety": -5, "stability": -15, "equality": -5 } }
+                    ]
+                }
+            ]
+        },
+        {
+            "phase": 3,
+            "title": "PHASE 3: 2033-2035 - The Brink",
+            "narration": "We are on the brink. The first signs of 'intelligence recursion' are being reported in advanced labs. The world holds its breath. This may be your final, and most important, decision.",
+            "dilemma": {
+                "title": "Policy Dilemma: The Intelligence Recursion Protocol",
+                "description": "A consortium of tech companies is ready to initiate a full-throttle 'intelligence explosion,' arguing it's the only way to solve humanity's greatest problems. Experts warn this is a 'wicked problem' where losing control is the 'default'.",
+                "choices": [
+                    {
+                        "text": "Authorize the Recursion",
+                        "pros": "Unleashes an intelligence that could solve everything from disease to interstellar travel, a powerful lure for states seeking to overtake rivals.",
+                        "cons": "An irreversible step. Losing control is 'highly likely,' which could lead to human extinction. There may only be one chance to get this right.",
+                        "impact": { "innovation": 100, "safety": -100, "stability": -50, "equality": 0 }
+                    },
+                    {
+                        "text": "Impose a Global Moratorium",
+                        "pros": "Buys humanity critical time to solve the 'wicked problem' of control and alignment before it's too late.",
+                        "cons": "A rival nation may defy the moratorium and pursue recursion in secret, gaining an insurmountable 'strategic monopoly'.",
+                        "impact": { "innovation": -50, "safety": 30, "stability": -20, "equality": 5 }
+                    }
+                ]
+            },
+            "wildcardEvents": []
+        }
+    ],
+    "endings": [
+        {
+            "title": "Ending: The Regulated Renaissance",
+            "condition": "(m) => m.innovation.value > 50 && m.stability.value > 50 && m.safety.value > 50 && m.equality.value > 50",
+            "narrative": "You did it. Through careful, balanced governance, you navigated the treacherous path. AI is a powerful, regulated tool that augments human capability. The benefits are widely shared, global cooperation is at an all-time high, and humanity has entered a new golden age of discovery and prosperity."
+        },
+        {
+            "title": "Ending: The Uncontrolled Intelligence Explosion",
+            "condition": "(m) => m.innovation.value >= 100 && m.safety.value < 20",
+            "narrative": "In the pursuit of progress, you flew too close to the sun. The 'intelligence explosion' occurred faster than anyone could predict. We have lost control. The new superintelligence's goals are unknown, and humanity's future is no longer in its own hands. The silence from the datacenters is deafening."
+        },
+        {
+            "title": "Ending: The MAIM Cascade",
+            "condition": "(m) => m.stability.value < 10",
+            "narrative": "The world couldn't bear the tension. Fearing rivals' AI progress, nations engaged in preemptive cyber and kinetic attacks. The 'MAIM' cascade was swift and brutal, crippling global infrastructure and plunging the world into a new dark age. The promise of AI is a forgotten dream."
+        },
+        {
+            "title": "Ending: The Wall-E Stagnation",
+            "condition": "(m) => m.equality.value > 80 && m.innovation.value < 20",
+            "narrative": "In your quest for safety and equality, you extinguished the fire of innovation. Humanity is comfortable, cared for by benevolent but uninspired AI. Purpose has diminished, and the drive to overcome challenges is gone. You achieved stability at the cost of our 'Star Trek' future, drifting into a 'Wall-E like' existence."
+        },
+        {
+            "title": "Ending: A Precarious Balance",
+            "condition": "() => true",
+            "narrative": "You have navigated the storm, but the future remains uncertain. Humanity coexists with powerful AI, constantly balancing on a knife's edge between utopia and catastrophe. Your work is not over; the vigilance must be eternal."
+        }
+    ]
+}
