@@ -52,6 +52,9 @@ triggerWildcard(): Randomly selects and displays a wildcard event from the curre
 endGame(): Evaluates the final metrics against the conditions defined in the gameData.endings array and displays the appropriate ending modal.
 
 State Management: The game's state is managed simply by incrementing the currentPhase variable and updating the metrics values within the gameState object. Restoring the game is as simple as reloading the page.
+
 Content Source
 
-All narrative text, scenarios, pros, cons, and underlying concepts presented in this game are derived directly from the user-provided research document, "SuperIntelligence Notes.pdf." The game serves as an interactive medium to explore the critical insights and warnings contained within that document.
+All narrative text, scenarios, pros, cons, and underlying concepts presented in this game are derived directly from the creators-provided research document, "SuperIntelligence Notes.pdf." The game serves as an interactive medium to explore the critical insights and warnings contained within that document.
+
+Protected with CC BY license that allows others to reuse, adapt, remix, and and distribute the work for any purpose, including commercial use. The only requirement is that the work or adaptation must be shared with attribution to the creator.
